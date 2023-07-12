@@ -1,0 +1,101 @@
+<div>
+            <div className="h-full bg-gray-200 p-8">
+                <div className="bg-white rounded-lg shadow-xl pb-8">
+                    <div className="w-full h-[250px]">
+                        <img src="https://vojislavd.com/ta-template-demo/assets/img/profile-background.jpg" className="w-full h-full rounded-tl-lg rounded-tr-lg" alt='' />
+                    </div>
+                    <div className="flex flex-col items-center -mt-20">
+                        <img src="https://vojislavd.com/ta-template-demo/assets/img/profile.jpg" className="w-40 border-4 border-white rounded-full" alt='' />
+                        <div className="flex items-center space-x-2 mt-2">
+                            <p className="text-2xl">Amanda Ross</p>
+                        </div>
+                        <p className="text-gray-700 p-3 text-center">Senior Software Engineer at Tailwind CSS</p>
+                    </div>
+                </div>
+
+                <div className="my-4 flex flex-col space-y-4 relative w-full">
+                    <div className="flex lg:flex-row md:space-x-4 space-x-4 flex-col relative w-full">
+                        <div className="my-5 bg-white rounded-lg shadow-xl p-7 md:px-12 w-full">
+                            <h4 className="text-xl text-gray-900 font-bold">Personal Info</h4>
+                            <ul className="mt-2 text-gray-700 lg:text-lg">
+                                <li className="border-y py-2">
+                                    <span className="font-semibold w-24">ID: 265436254</span>
+                                </li>
+                                <li className="border-y py-2">
+                                    <span className="font-semibold w-24">Full name: Amanda S. Ross</span>
+                                </li>
+                                <li className="border-y py-2">
+                                    <span className="font-semibold w-24">Email: admin@admin.con</span>
+                                </li>
+                                <li className="border-y py-2">
+                                    <span className="font-semibold w-24">Phone: 15362654125</span>
+                                </li>
+                                <li className="border-y py-2">
+                                    <span className="font-semibold w-24">Address: Bidesh</span>
+                                </li>
+                                <li className="border-y py-2">
+                                    <span className="font-semibold w-24">Password: *********</span>
+                                </li>
+                                <li className="border-y py-2">
+                                    <span className="font-semibold w-24">Status: Active</span>
+                                </li>
+                                <li className="border-y py-2">
+                                    <span className="font-semibold w-24">Job: test</span>
+                                </li>
+                                <li className="border-y py-2">
+                                    <span className="font-semibold w-24">Created at: 29th July 2069</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="my-5 bg-white rounded-lg shadow-xl p-7 md:px-12 w-full">
+                            <h4 className="text-xl text-gray-900 font-bold">Update Password</h4>
+                            <input type="email" id="email" name="email" className="py-3 my-4 px-4 block w-52 md:w-96 border-2 border-gray-300 rounded-md text-base" required aria-describedby="email-error" placeholder='Enter Old Password' />
+                            <input type="email" id="email" name="email" className="py-3 my-3 px-4 block w-52 md:w-96 border-2 border-gray-300 rounded-md text-base" required aria-describedby="email-error" placeholder='Enter New Password' />
+                            <button type="submit" className="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">Reset password</button>
+                        </div>
+                    </div>
+                    <div className="my-5 bg-white rounded-lg shadow-xl p-7">
+                        <h4 className="text-xl text-gray-900 font-bold">Activity log</h4>
+                        <div className="relative px-4">
+                            <div className="absolute h-full border border-dashed border-opacity-20 border-secondary"></div>
+                            <div className="flex items-center w-full my-6 -ml-1.5">
+                                <div className="w-1/12 z-10">
+                                    <div className="w-3.5 h-3.5 bg-blue-600 rounded-full"></div>
+                                </div>
+                                <div className="lg:w-11/12 px-4 lg:px-0">
+                                    <p className="text-lg md:text-base text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat velit molestiae. Nesciunt maiores at obcaecati! Magni at vitae laborum odio recusandae.</p>
+                                    <p className="text-sm text-gray-500">3 min ago</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center w-full my-6 -ml-1.5">
+                                <div className="w-1/12 z-10">
+                                    <div className="w-3.5 h-3.5 bg-blue-600 rounded-full"></div>
+                                </div>
+                                <div className="lg:w-11/12 px-4 lg:px-0">
+                                    <p className="text-lg md:text-base text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat velit molestiae. Nesciunt maiores at obcaecati! Magni at vitae laborum odio recusandae.</p>
+                                    <p className="text-sm text-gray-500">3 min ago</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center w-full my-6 -ml-1.5">
+                                <div className="w-1/12 z-10">
+                                    <div className="w-3.5 h-3.5 bg-blue-600 rounded-full"></div>
+                                </div>
+                                <div className="lg:w-11/12 px-4 lg:px-0">
+                                    <p className="text-lg md:text-base text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat velit molestiae. Nesciunt maiores at obcaecati! Magni at vitae laborum odio recusandae.</p>
+                                    <p className="text-sm text-gray-500">3 min ago</p>
+                                </div>
+                            </div>
+                            <div className="flex items-center w-full my-6 -ml-1.5">
+                                <div className="w-1/12 z-10">
+                                    <div className="w-3.5 h-3.5 bg-blue-600 rounded-full"></div>
+                                </div>
+                                <div className="lg:w-11/12 px-4 lg:px-0">
+                                    <p className="text-lg md:text-base text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat velit molestiae. Nesciunt maiores at obcaecati! Magni at vitae laborum odio recusandae.</p>
+                                    <p className="text-sm text-gray-500">3 min ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
